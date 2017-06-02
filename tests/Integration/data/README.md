@@ -1,0 +1,1 @@
+Any files here will be ignored by static analysis and code coverage. Supposed to be used for test data for integration tests.

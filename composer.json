@@ -1,0 +1,25 @@
+{
+    "name": "ENTER NAME HERE",
+    "description": "ENTER DESCRIPTION HERE",
+    "version": "0.0.0",
+    "require": {
+        //composer require ...
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7", //for PHP 5.6
+        "squizlabs/php_codesniffer": "^3.0", //for PHP 5.6
+        "rregeer/phpunit-coverage-check": "^0.1.3" //for PHP 5.6
+    },
+    "authors": [
+        /*{
+            "name": "Ken Ploeger",
+            "email": "kenploeger@gmail.com"
+        }*/
+    ],
+    "autoload": {
+        "psr-4": {"ENTER-NAMESPACE-HERE": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"ENTER-NAMESPACE-HERE\\Tests\\": "tests/"}
+    }
+}
